@@ -1,4 +1,4 @@
-<!DOCTYPE>
+ <!DOCTYPE>
 <center>
         <html>
             <head>
@@ -12,16 +12,14 @@
         <form  action="FormValidationProject2.php" method="post"> 
         <legend>* Please Fill Out the following Fields.</legend>			
         <fieldset>
-        First Name:<br>
-        <input class="input" type="text" Name="First Name" value=""><br>	
-        Last Name:<br>
-        <input class="input" type="text" Name=":Last Name" value=""><br>	 
+        First name:<br>
+        <input class="input" type="text" Name="FirstName" value=""><br>
+        Last name:<br>
+        <input class="input" type="text" Name="LastName" value=""><br>	 
         Email:<br>
         <input class="input" type="text" Name="Email" value=""><br>
-        Confrim Email:<br>
-        <input class="input" type="text" Name="Confirm Email" value=""><br>
-        YouTube URL:<br>
-        <input class="input" type="text" Name="YouTube URL" value=""><br>	
+        Confirm Email:<br>
+        <input class="input" type="text" Name="ConfirmEmail" value=""><br>
         Password:<br>
         <input class="input" type="text" Name="Password" value=""><br>	
         Confirm password:<br>.
