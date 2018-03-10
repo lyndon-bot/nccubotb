@@ -1,12 +1,11 @@
 <?php
 
-include "conn.php";
+
 
 Function query($text){
-
-    $query = mysqli_query($conn,$text)
+    
+    include "conn.php";
+    $query = mysqli_query($conn,$text);
 }
-
-
 
 ?>
