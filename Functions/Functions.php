@@ -5,7 +5,7 @@
 Function query($text){
     
     include "conn.php";
-    $query = mysqli_query($conn,$text);
+    return mysqli_query($conn,$text);
 }
 
 ?>

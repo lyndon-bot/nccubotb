@@ -11,13 +11,14 @@ Function register(){
     
 
     query("insert into user (Email,Password) values ('$email','$pass')");
-
-    $U_id = query("select U_ID from user where Email ='$email"); 
-
+    
+    $U_id = query("select * from user where Email ='$email'"); 
+    $RU_id = mysqli_fetch_assoc($U_id);
+    $FU_id = $RU_id['U_ID'];
     if(isset($_POST['URL'])){
         $url = $_POST['URL'];
-
-        query("insert into ytcomp (U_ID,Yturl,TotalVotes) values ('$U_id','$url','0')");
+        echo $url;
+        query("insert into ytcomp (U_ID,Yturl,TotalVotes) values ('$FU_id','$url','0')");
         
     }
 
@@ -34,6 +35,6 @@ Function register(){
 }
 
 register();
-header('location:../Pages/Home.php');
+//header('location:../Pages/Home.php');
 
 ?>

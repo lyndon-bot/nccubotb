@@ -18,13 +18,13 @@
 			            <span class="icon-bar"></span>
 			            <span class="icon-bar"></span>
                       </button>
-                        <a id="home1" class="navbar" style=" height: 50px; color: #777; padding: 15px 15px; list-style: none; font-size: 18px;line-height: 0px;" href="../Pages/dash.php"><img style="height:50px; max-width:50px;" src="../IMG-VID/NFL.png"> NFL Central Point</a>
+                        <a id="home1" class="navbar" style=" height: 50px; color: #777; padding: 15px 15px; list-style: none; font-size: 18px;line-height: 0px;" href="../index.php"><img style="height:50px; max-width:50px;" src="../IMG-VID/NFL.png"> NFL Central Point</a>
 			        </div>
 			        <div id="navbar" class="navbar-collapse collapse">
 			          <ul class="nav navbar-nav navbar-right">
 
-                        <li><a href="../Functions/logout.php">Register</a></li>
-                        <li><a href="../Functions/logout.php">Login</a></li>
+                        <li><a href="Register.php">Register</a></li>
+                        <li><a href="SignIn.php">Login</a></li>
 
 			           
 			          </ul>
@@ -37,15 +37,15 @@
             <form  action="../Functions/Register.php" method="post"> 			
             <h2>Create An Account</h2>
            
-            <input class="form-control" type="email" placeholder="Email" Name="Email" value="" require><br>
+            <input class="form-control" type="email" placeholder="Email" Name="Email" value="" required><br>
          
-            <input class="form-control" type="text" placeholder="First Name" Name="FirstName" value="" require><br>
+            <input class="form-control" type="text" placeholder="First Name" Name="FirstName" value="" required><br>
            
-            <input class="form-control" type="text" placeholder="Last Name" Name="LastName" value="" require><br>	 
+            <input class="form-control" type="text" placeholder="Last Name" Name="LastName" value="" required><br>	 
         
-            <input class="form-control" type="password" placeholder="Password" Name="Password" value="" require><br>
+            <input class="form-control" type="password" placeholder="Password" Name="Password" value="" required><br>
             
-            <input class="form-control" type="url" placeholder="URL(optional) For Contestants Only " Name="URL" value="" require><br>
+            <input class="form-control" type="url" placeholder="URL(optional) For Contestants Only " Name="URL" value="" required><br>
 
             <button class="btn btn-primary "> Register </button>
             </form>

@@ -1,26 +1,17 @@
 <?php
 
-$submit = $_POST['submit'];
 
 function login(){
 
-    
+    include "Functions.php";
+
+    $email = $_POST['Email'];
+    $pass = $_POST['Password'];
 
 
 
 
 }
 
-function register(){
-
-
-
-
-}
-
-switch($submit){
-    case 1: login();
-    case 2: register();
-}
 
 ?>
