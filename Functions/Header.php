@@ -9,7 +9,7 @@
 <html> 
 
     <head> 
-        <link rel="stylesheet" type="text/css" href="../Style/css/bootstrap.css">
+        <link rel="stylesheet" href="../Style/css/bootstrap.css">
     </head> 
 
     <body>
@@ -23,4 +23,5 @@
 
     </body>
 
+    <script src="../Style/js/bootstrap.js"><script>
     </html>
