@@ -36,13 +36,13 @@
 			            <span class="icon-bar"></span>
 			            <span class="icon-bar"></span>
                       </button>
-                        <a id="home1" class="navbar" style=" height: 50px; color: #777; padding: 15px 15px; list-style: none; font-size: 18px;line-height: 0px;" href="../Pages/dash.php"><img style="height:50px; max-width:50px;" src="../IMG-VID/NFL.png"> NFL Central Point</a>
+                        <a id="home1" class="navbar" style=" height: 50px; color: #777; padding: 15px 15px; list-style: none; font-size: 18px;line-height: 0px;" href="../Pages/dash.php"><img style="height:50px; max-width:50px;" src="IMG-VID/NFL.png"> NFL Central Point</a>
 			        </div>
 			        <div id="navbar" class="navbar-collapse collapse">
 			          <ul class="nav navbar-nav navbar-right">
 
-                        <li><a href="../Functions/logout.php">Register</a></li>
-                        <li><a href="../Functions/logout.php">Login</a></li>
+                        <li><a href="Pages/Register.php">Register</a></li>
+                        <li><a href="Pages/SignIn.php">Login</a></li>
 
 			           
 			          </ul>
@@ -56,11 +56,11 @@
     
     <div>
         <h1 class="brand" style="font-size: 75px; margin-top:250px;text-type:bold; color:white; text-align:center;"> NFL Central Point </h1>
-         <button type="button" style="margin-top:100px; margin-bottom:0px; width:300px;" class="btn btn-primary center-block">Login</button>
+       <form action="Pages/SignIn.php" method="post">  <button type="submit" style="margin-top:100px; margin-bottom:0px; width:300px;" class="btn btn-primary center-block">Login</button> </form>
     <div>
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
     
-        <p style="">&copy; 2018 National Football League  &middot; <a href="#">Help</a></p>
+        <p style="">&copy; 2018 National Football League  &middot; <a href="#"></a></p>
 			        
  </nav>
 

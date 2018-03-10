@@ -11,20 +11,21 @@ Function register(){
     
 
     query("insert into user (Email,Password) values ('$email','$pass')");
-
-    $U_id = query("select U_ID from user where Email ='$email"); 
-
+    
+    $U_id = query("select * from user where Email ='$email'"); 
+    $RU_id = mysqli_fetch_assoc($U_id);
+    $FU_id = $RU_id['U_ID'];
     if(isset($_POST['URL'])){
-        $url = $_POST['URL'];
-
-        query("insert into ytcomp (U_ID,Yturl,TotalVotes) values ('$U_id','$url','0')");
+        //$url = $_POST['URL'];
+        $end = md5(uniqid(rand(),true));
+        query("insert into ytcomp (U_ID,Yturl,TotalVotes) values ('$FU_id','$end','0')");
         
     }
 
     session_start();
 
     
-    $_SESSION['U_ID'] = $U_id;
+    $_SESSION['FU_ID'] = $U_id;
     $_SESSION['Email'] = $email;
 
 

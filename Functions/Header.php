@@ -23,7 +23,7 @@
 			            <span class="icon-bar"></span>
 			            <span class="icon-bar"></span>
 			          </button>
-			          <a id="home1" class="navbar" style=" height: 50px; color: #777; padding: 15px 15px; list-style: none; font-size: 18px;line-height: 0px;" href="../Pages/dash.php"><img style="height:50px; max-width:50px;" src="../IMG-VID/NFL.png"> NFL Central Point</a>
+			          <a id="home1" class="navbar" style=" height: 50px; color: #777; padding: 15px 15px; list-style: none; font-size: 18px;line-height: 0px;" href="../index.php"><img style="height:50px; max-width:50px;" src="../IMG-VID/NFL.png"> NFL Central Point</a>
 			        </div>
 			        <div id="navbar" class="navbar-collapse collapse">
 			          <ul class="nav navbar-nav navbar-right">
