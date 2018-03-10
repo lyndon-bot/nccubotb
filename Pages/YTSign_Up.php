@@ -29,19 +29,19 @@ $EmailError="Invalid Email Format";
 }
 }
   
-  if(empty($_POST["Website"])){
-$WebsiteError="Website is Required";
+  if(empty($_POST["URL Generator"])){
+$WebsiteError="URL is Required";
  }
  else{
-$Website=Test_User_Input($_POST["Website"]);
+$Website=Test_User_Input($_POST["URL Generator"]);
  // check Website address syntax is valid or not
 
 if(!preg_match("/(https:|ftp:)\/\/+[a-zA-Z0-9.\-_\/?\$=&\#\~`!]+\.[a-zA-Z0-9.\-_\/?\$=&\#\~`!]*/",$Website))
 {
-$WebsiteError="Invalid Webside Address Format";	
+$WebsiteError="Invalid URL Format";	
 }
 }
-if(!empty($_POST["Name"])&&!empty($_POST["Email"])&&!empty($_POST["Gender"])&&!empty($_POST["Website"]))
+if(!empty($_POST["Name"])&&!empty($_POST["Email"])&&!empty($_POST["Website"]))
 {
 if((preg_match("/^[A-Za-z\. ]*$/",$Name)==true)&&(preg_match("/[a-zA-Z0-9._-]{3,}@[a-zA-Z0-9._-]{3,}[.]{1}[a-zA-Z0-9._-]{2,}/",$Email)==true)&&(preg_match("/(https:|ftp:)\/\/+[a-zA-Z0-9.\-_\/?\$=&\#\~`!]+\.[a-zA-Z0-9.\-_\/?\$=&\#\~`!]*/",$Website)==true))
 {
