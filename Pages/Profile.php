@@ -11,7 +11,7 @@ include "../Functions/Header.php";
        <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 " style=" height:400px;" class="">
                 
-                <img src=".../nccubotb/IMG-VID/profilePic.png">
+                <img style="width:100%; height:350px;" src="../IMG-VID/profilePic.png">
             </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 " style=" height:400px; width:100%" class="">
