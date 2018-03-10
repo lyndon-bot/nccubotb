@@ -12,7 +12,7 @@ session_start();
         <link rel="stylesheet" href="../Style/css/bootstrap.css">
     </head> 
 
-    <body>
+    <body style="background-color:#D3D3D3;">
 
        <nav class="navbar navbar-inverse navbar-fixed-top">
 			      <div class="container-fluid">
@@ -28,7 +28,8 @@ session_start();
 			        <div id="navbar" class="navbar-collapse collapse">
 			          <ul class="nav navbar-nav navbar-right">
 			            <li><a id="home" href="../Pages/Home.php">Welcome,<?php echo $_SESSION['Email'];?></a></li>
-			            <li><a href="../Pages/Profile.php">Profile</a></li>
+                        <li><a href="../Pages/Profile.php">My Locker</a></li>
+                        <li><a href="../Pages/Chat_room.php">Huddles</a></li>
 			            <li><a href="../Functions/logout.php">Logout</a></li>
 
 			           
