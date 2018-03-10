@@ -10,17 +10,17 @@ include "../Functions/Header.php";
        
        <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 panel panel-default" style=" margin-bottom: 30px; height:170px;" class="">
-
-
-                </div>
-
-                <div class="col-lg-12 col-md-12 col-sm-12 panel panel-default" style=" margin-bottom: 30px; height:170px;" class="">
-
+                     <img style="height:100%;width:100%; margin-top:0px;" src="../IMG-VID/NFL-Game-Pass.png">
 
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 panel panel-default" style=" margin-bottom: 30px; height:170px;" class="">
+                     <img style="height:100%;width:100%; margin-top:0px;" src="../IMG-VID/PI-NFL-Packers-Draft-Chat.vadapt.767.high.14.jpg">
 
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 panel panel-default" style=" margin-bottom: 30px; height:170px;" class="">
+                    <img style="height:100%;width:100%; margin-top:0px;" src="../IMG-VID/NFL-Game-Pass.png">    
 
             </div>
         </div>
