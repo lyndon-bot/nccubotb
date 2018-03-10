@@ -15,8 +15,7 @@
     <body>
 
     <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-        <div class="navbar-header">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             <a class="navbar-brand" href="#"> websitename </a>
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Home</a></li>
@@ -27,8 +26,7 @@
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
-        </div>
-        </div>
+        
 
     </nav>          
 
