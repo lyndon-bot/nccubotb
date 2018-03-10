@@ -16,16 +16,16 @@ Function register(){
     $RU_id = mysqli_fetch_assoc($U_id);
     $FU_id = $RU_id['U_ID'];
     if(isset($_POST['URL'])){
-        $url = $_POST['URL'];
-        echo $url;
-        query("insert into ytcomp (U_ID,Yturl,TotalVotes) values ('$FU_id','$url','0')");
+        //$url = $_POST['URL'];
+        $end = md5(uniqid(rand(),true));
+        query("insert into ytcomp (U_ID,Yturl,TotalVotes) values ('$FU_id','$end','0')");
         
     }
 
     session_start();
 
     
-    $_SESSION['U_ID'] = $U_id;
+    $_SESSION['FU_ID'] = $U_id;
     $_SESSION['Email'] = $email;
 
 
@@ -35,6 +35,6 @@ Function register(){
 }
 
 register();
-//header('location:../Pages/Home.php');
+header('location:../Pages/Home.php');
 
 ?>

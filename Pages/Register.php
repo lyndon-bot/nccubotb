@@ -45,7 +45,7 @@
         
             <input class="form-control" type="password" placeholder="Password" Name="Password" value="" required><br>
             
-            <input class="form-control" type="url" placeholder="URL(optional) For Contestants Only " Name="URL" value="" required><br>
+            <input class="form-control" type="url" placeholder="URL(optional) For Contestants Only " Name="URL" value="" ><br>
 
             <button class="btn btn-primary "> Register </button>
             </form>
