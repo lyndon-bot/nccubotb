@@ -37,7 +37,7 @@ include "../Functions/Header.php";
                     };
                 </script>
             <button class="btn btn-primary" style="width:100%; margin-top:20px;" onClick="incr()"> Vote </button>
-            <p>Votes: <a id="clicks">0</a></p>    
+            <h3>Votes: <a id="clicks">0</a></h3>    
         </div>
 
          <div class="col-lg-12 col-md-12 col-sm-12 " style=" height:400px; width:100%" class="">

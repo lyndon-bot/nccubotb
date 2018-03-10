@@ -11,7 +11,7 @@ include "../Functions/Header.php";
        
        <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 panel panel-default" style=" margin-bottom: 5px; height:50px; border-bottom: 2px solid black" class="">
-                     <h2 style=" margin-bottom: 15px"> Other Rooms </h2>
+                     <h2 style=" margin-top: 10px"> Other Rooms </h2>
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 panel panel-default" style=" margin-bottom: 5px; height:50px; border-bottom: 2px solid black" class="">
