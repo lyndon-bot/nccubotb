@@ -1,5 +1,5 @@
 <?php
-
+session_start();
     include "conn.php";
 
 
@@ -27,7 +27,7 @@
 			        </div>
 			        <div id="navbar" class="navbar-collapse collapse">
 			          <ul class="nav navbar-nav navbar-right">
-			            <li><a id="home" href="../Pages/dash.php">Welcome,</a></li>
+			            <li><a id="home" href="../Pages/Home.php">Welcome,<?php echo $_SESSION['Email'];?></a></li>
 			            <li><a href="../Pages/Profile.php">Profile</a></li>
 			            <li><a href="../Functions/logout.php">Logout</a></li>
 
