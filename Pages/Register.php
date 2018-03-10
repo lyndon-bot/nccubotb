@@ -13,23 +13,17 @@
         <legend>* Please Fill Out the following Fields.</legend>			
         <fieldset>
         First name:<br>
-        <input class="input" type="text" Name="FirstName" value="">
-        <span class="Error">*<?php echo $FirstNameError;  ?></span><br>
+        <input class="input" type="text" Name="FirstName" value=""><br>
         Last name:<br>
-        <input class="input" type="text" Name="LastName" value="">
-        <span class="Error">*<?php echo $LastNameError;  ?></span><br>	 
+        <input class="input" type="text" Name="LastName" value=""><br>	 
         Email:<br>
-        <input class="input" type="text" Name="Email" value="">
-        <span class="Error">*<?php echo $EmailError; ?></span><br>
+        <input class="input" type="text" Name="Email" value=""><br>
         Confirm Email:<br>
-        <input class="input" type="text" Name="ConfirmEmail" value="">
-        <span class="Error">*<?php echo $ConfirmEmailError; ?></span><br>
+        <input class="input" type="text" Name="ConfirmEmail" value=""><br>
         Password:<br>
-        <input class="input" type="text" Name="Password" value="">
-        <span class="Error">*<?php echo $PasswordError; ?></span><br>	
+        <input class="input" type="text" Name="Password" value=""><br>	
         Confirm password:<br>.
-        <input class="input" type="text" Name="ConfirmPassword" value="">
-        <span class="Error">*<?php echo $ConfirmPasswordError; ?></span><br>		   
+        <input class="input" type="text" Name="ConfirmPassword" value=""><br>		   
         <br>
         <input type="Submit" Name="Submit" value="Create An Account">
         </fieldset>
