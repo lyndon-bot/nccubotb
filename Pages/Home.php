@@ -1,4 +1,9 @@
-<!DOCTYPE>
+
+<?php 
+
+include "../Functions/Header.php";
+
+?>
 
 <html>
 
@@ -13,3 +18,7 @@
    
 </html>
 </center>
+
+<?php
+include "../Functions/Footer.php";
+?>
