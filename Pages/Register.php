@@ -12,6 +12,8 @@
         <form  action="FormValidationProject2.php" method="post"> 
         <legend>* Please Fill Out the following Fields.</legend>			
         <fieldset>
+        Username:<br>
+        <input class="input" type="text" Name="UsertName" value=""><br>
         First name:<br>
         <input class="input" type="text" Name="FirstName" value=""><br>
         Last name:<br>

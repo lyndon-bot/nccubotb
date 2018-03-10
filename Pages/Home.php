@@ -1,7 +1,5 @@
 <!DOCTYPE>
 
-
-
 <html>
 
 <img style="display: block; margin: 0 auto;" src="Logo_NFL.jpg" alt=""/>
