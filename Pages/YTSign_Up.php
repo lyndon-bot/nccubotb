@@ -12,10 +12,12 @@
         <form  action="FormValidationProject2.php" method="post"> 
         <legend>* Please Fill Out the following Fields.</legend>			
         <fieldset>
+        Username:<br>
+        <input class="input" type="text" Name="UserName" value=""><br>
         First Name:<br>
         <input class="input" type="text" Name="First Name" value=""><br>	
         Last Name:<br>
-        <input class="input" type="text" Name=":Last Name" value=""><br>	 
+        <input class="input" type="text" Name="Last Name" value=""><br>	 
         Email:<br>
         <input class="input" type="text" Name="Email" value=""><br>
         Confrim Email:<br>
