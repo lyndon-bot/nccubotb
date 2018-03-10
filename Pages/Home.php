@@ -31,7 +31,15 @@ include "../Functions/Header.php";
         <div class="col-lg-12 col-md-12 col-sm-12" style=" margin-bottom: 30px; height:400px;" class="">
 
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/U_DHpdrx0ZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <button class="btn btn-primary" style="width:100%; margin-top:20px;"> Vote </button>    
+                <script type="text/javascript">
+                    var clicks = 0;
+                    function incr() {
+                    clicks += 1;
+                    document.getElementById("clicks").innerHTML = clicks;
+                    };
+                </script>
+            <button class="btn btn-primary" style="width:100%; margin-top:20px;" onClick="incr()"> Vote </button>
+            <p>Votes: <a id="clicks">0</a></p>    
         </div>
 
     </div>
